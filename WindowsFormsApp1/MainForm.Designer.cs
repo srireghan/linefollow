@@ -44,7 +44,7 @@
             // 
             // pictureBoxThreshold
             // 
-            this.pictureBoxThreshold.Location = new System.Drawing.Point(421, 12);
+            this.pictureBoxThreshold.Location = new System.Drawing.Point(436, 12);
             this.pictureBoxThreshold.Name = "pictureBoxThreshold";
             this.pictureBoxThreshold.Size = new System.Drawing.Size(332, 426);
             this.pictureBoxThreshold.TabIndex = 1;
@@ -60,6 +60,7 @@
             this.Controls.Add(this.pictureBoxRaw);
             this.Name = "MainForm";
             this.Text = "MainForm";
+            this.Load += new System.EventHandler(this.MainForm_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBoxRaw)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBoxThreshold)).EndInit();
             this.ResumeLayout(false);
